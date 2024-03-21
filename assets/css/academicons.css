@@ -470,11 +470,7 @@ a:hover {
 
 }
 
-@media screen and (max-width: 1000px) {
-  .professor2 {
-    margin-left: 3%;
-  }
-}
+
 
 .myh3 {
   white-space: nowrap !important;
@@ -494,4 +490,21 @@ a:hover {
 
 .co {
   list-style-type: none;
+}
+
+.my_author_ul {
+  list-style-type: none;
+  width: 500px;
+}
+
+@media screen and (max-width: 1000px) {
+  .professor2 {
+    margin-left: 3%;
+  }
+
+  .my_author_ul {
+    margin-left: 10%;
+    margin-top: 10%;
+    display: block;
+  }
 }
