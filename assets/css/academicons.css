@@ -503,8 +503,12 @@ a:hover {
   }
 
   .my_author_ul {
-    margin-left: 10%;
-    margin-top: 10%;
+    margin-left: -1%;
+    margin-top: 2%;
     display: block;
+  }
+
+  .author {
+    margin-left: 20%;
   }
 }

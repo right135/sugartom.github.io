@@ -3484,13 +3484,22 @@ select:focus {
   display: flex;
   justify-content: flex-start;
   align-content: flex-start;
-  align-items: center
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.profile_box>* {
+  flex-basis: 100%;
+  /* 每个子元素占据一行 */
 }
 
 @media (min-width: 57.8125em) {
   .profile_box {
-    display: block
+    display: block;
+
   }
+
+
 }
 
 .author__avatar {
