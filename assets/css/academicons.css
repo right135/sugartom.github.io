@@ -497,7 +497,18 @@ a:hover {
   width: 500px;
 }
 
+body {
+  zoom: 1.1 !important;
+}
+
+/* 在屏幕宽度小于等于 768px 时，将缩放比例改为 1.0 */
+@media (max-width: 768px) {}
+
 @media screen and (max-width: 1000px) {
+  body {
+    zoom: 1.0 !important;
+  }
+
   #professor3 {
     margin-left: -25%;
   }
